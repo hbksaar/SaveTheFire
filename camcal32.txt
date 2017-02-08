@@ -1,0 +1,14 @@
+Scale factors:
+WallsLR: (1.0, 1.0)
+WallsFB: (1.0, 1.0)
+Floor:   (1.0, 1.0)
+
+Viewports:
+Camera 0: (x:0.00, y:0.50, width:0.48, height:0.50)
+Camera 1: (x:0.55, y:0.50, width:0.46, height:0.50)
+Camera 2: (x:0.50, y:0.00, width:0.46, height:0.50)
+Camera 3: (x:0.05, y:0.50, width:0.45, height:0.50)
+Camera 4: (x:0.50, y:0.50, width:0.49, height:0.50)
+Camera 5: (x:0.00, y:0.00, width:0.50, height:0.50)
+Camera 6: (x:0.00, y:0.00, width:0.50, height:0.50)
+Camera 7: (x:0.50, y:0.01, width:0.50, height:0.49)

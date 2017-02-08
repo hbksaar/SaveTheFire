@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 28ee3480553224c4392e1a1238a446d0
+timeCreated: 1486233823
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature_008
+    100004: Armature_009
+    100006: //RootNode
+    100008: Bone
+    100010: Bone_0
+    100012: Bone_001
+    100014: Bone_002
+    100016: Bone_003
+    100018: Bone_004
+    100020: Bone_005
+    100022: Bone_006
+    100024: Bone_007
+    100026: Bone_008
+    100028: Bone_009
+    100030: Bone_010
+    100032: Bone_011
+    100034: Bone_1
+    100036: Bone_10
+    100038: Bone_11
+    100040: Bone_12
+    100042: Bone_13
+    100044: Bone_14
+    100046: Bone_15
+    100048: Bone_16
+    100050: Bone_17
+    100052: Bone_18
+    100054: Bone_19
+    100056: Bone_2
+    100058: Bone_20
+    100060: Bone_21
+    100062: Bone_22
+    100064: Bone_23
+    100066: Bone_3
+    100068: Bone_4
+    100070: Bone_5
+    100072: Bone_6
+    100074: Bone_7
+    100076: Bone_8
+    100078: Bone_9
+    100080: Plane_035
+    400000: Armature
+    400002: Armature_008
+    400004: Armature_009
+    400006: //RootNode
+    400008: Bone
+    400010: Bone_0
+    400012: Bone_001
+    400014: Bone_002
+    400016: Bone_003
+    400018: Bone_004
+    400020: Bone_005
+    400022: Bone_006
+    400024: Bone_007
+    400026: Bone_008
+    400028: Bone_009
+    400030: Bone_010
+    400032: Bone_011
+    400034: Bone_1
+    400036: Bone_10
+    400038: Bone_11
+    400040: Bone_12
+    400042: Bone_13
+    400044: Bone_14
+    400046: Bone_15
+    400048: Bone_16
+    400050: Bone_17
+    400052: Bone_18
+    400054: Bone_19
+    400056: Bone_2
+    400058: Bone_20
+    400060: Bone_21
+    400062: Bone_22
+    400064: Bone_23
+    400066: Bone_3
+    400068: Bone_4
+    400070: Bone_5
+    400072: Bone_6
+    400074: Bone_7
+    400076: Bone_8
+    400078: Bone_9
+    400080: Plane_035
+    4300000: Plane_035
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Plane_035
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

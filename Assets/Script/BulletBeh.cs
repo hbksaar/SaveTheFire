@@ -6,7 +6,7 @@ public class BulletBeh : MonoBehaviour {
 
     public bool Fire;
     public Vector3 direction;
-    public float speed = 0.00001f;
+    public float speed;
 
 	// Use this for initialization
 	void Start () {

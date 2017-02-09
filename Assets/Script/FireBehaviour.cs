@@ -17,9 +17,9 @@ public class FireBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        Vector3 scale = gameObject.transform.localScale;
-        scale.y = SizeOfFire;
-        gameObject.transform.localScale = scale;
+       //Vector3 scale = gameObject.transform.localScale;
+       // scale.y = SizeOfFire;
+        //gameObject.transform.localScale = scale;
 
 
     }
@@ -31,12 +31,17 @@ public class FireBehaviour : MonoBehaviour {
         {
             other.gameObject.GetComponent<BulletBeh>().Fire = false;
             Destroy(other.gameObject);
-            FireLight.intensity -= 0.01f;
+
+            FireLight.GetComponent<Light>().intensity -= 0.005f;
         }
 
 
-        Debug.Log("Other tag = " + other.gameObject.tag);
-        other.gameObject.SetActive(false);
+        if (other.gameObject.GetComponent<ItemBeh>() != null)
+        {
+            Destroy(other.gameObject);
+            FireLight.GetComponent<Light>().intensity -= 0.005f;
+        }
+
         //SizeOfFire += (float) Convert.ToInt32(other.gameObject.tag);
 
 
@@ -47,7 +52,7 @@ public class FireBehaviour : MonoBehaviour {
 
 
         //FireLight.intensity += (float)(Convert.ToInt32(other.gameObject.tag.ToString()) * 0.5);
-        FireLight.intensity -= 1.5f;
+        //FireLight.intensity -= 1.5f;
 
     }
 }

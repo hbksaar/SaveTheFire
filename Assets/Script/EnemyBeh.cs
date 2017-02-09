@@ -36,7 +36,7 @@ public class EnemyBeh : MonoBehaviour {
     }
 
 
-    void lettrythis()
+    void ThrowSnowball()
     {
 
 

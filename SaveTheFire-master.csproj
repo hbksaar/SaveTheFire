@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ItemBeh.cs" />
     <Compile Include="Assets\Medientheater v3\ActivateDisplays.cs" />
     <Compile Include="Assets\Medientheater v3\CamStretch.cs" />
     <Compile Include="Assets\Medientheater v3\CameraCalibration.cs" />

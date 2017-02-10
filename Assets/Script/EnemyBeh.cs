@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyBeh : MonoBehaviour {
 
     private GameObject bullet;
-    public int Life;
 
     // Use this for initialization
     void Start ()
@@ -19,23 +18,6 @@ public class EnemyBeh : MonoBehaviour {
 
 	}
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (Life > 1)
-        {
-            Life--;
-            other.gameObject.GetComponent<BulletBeh>().Fire = false;
-            Destroy(other.gameObject);
-        }
-        else
-        {
-            other.gameObject.GetComponent<BulletBeh>().Fire = false;
-            Destroy(other.gameObject);
-            Destroy(this.gameObject);
-        }
-    }
-
-
     void ThrowSnowball()
     {
         bullet = Instantiate(Resources.Load("Bullet", typeof(GameObject))) as GameObject;
@@ -47,4 +29,7 @@ public class EnemyBeh : MonoBehaviour {
         bullet.GetComponent<BulletBeh>().Fire = true;
 
     }
+
+    
+
 }

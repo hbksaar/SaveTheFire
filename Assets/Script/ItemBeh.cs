@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ItemBeh : MonoBehaviour {
 
+
+    public float Value;
+
 	// Use this for initialization
 	void Start () {
 		

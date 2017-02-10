@@ -75,17 +75,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ItemBeh.cs" />
     <Compile Include="Assets\Medientheater v3\ActivateDisplays.cs" />
     <Compile Include="Assets\Medientheater v3\CamStretch.cs" />
     <Compile Include="Assets\Medientheater v3\CameraCalibration.cs" />
     <Compile Include="Assets\Medientheater v3\MedientheaterCalibration.cs" />
     <Compile Include="Assets\Medientheater v3\MedientheaterCalibrationInput.cs" />
-    <Compile Include="Assets\NormalObjectBeh.cs" />
     <Compile Include="Assets\Script\BulletBeh.cs" />
     <Compile Include="Assets\Script\EnemyBeh.cs" />
+    <Compile Include="Assets\Script\EnemyBoneParent.cs" />
+    <Compile Include="Assets\Script\EnemyHitBeh.cs" />
     <Compile Include="Assets\Script\FireBehaviour.cs" />
+    <Compile Include="Assets\Script\ItemBeh.cs" />
     <Compile Include="Assets\Script\Manager.cs" />
+    <Compile Include="Assets\Script\NormalObjectBeh.cs" />
     <Compile Include="Assets\Script\RayCaster.cs" />
     <Compile Include="Assets\Script\TipOfGun.cs" />
     <Compile Include="Assets\Script\loop.cs" />

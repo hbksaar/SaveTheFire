@@ -39,21 +39,21 @@ public class TipOfGun : MonoBehaviour
         {
             if(hit.collider.gameObject.GetComponent<ItemBeh>() != null)
             {
-                if (hit.collider.gameObject.transform.parent != this.transform.parent && !drop)
-                {
+                //if (hit.collider.gameObject.transform.parent != this.transform.parent && !drop)
+                //{
                     hit.collider.gameObject.transform.parent = this.transform.parent;
-                    hit.collider.gameObject.transform.position = transform.position + transform.forward;
+                hit.collider.gameObject.transform.position = transform.position;// + transform.forward - new Vector3(0.25f, 0, 0.25f);
                     hit.rigidbody.useGravity = false;
-                }
-                else
-                {
-                    if (hit.rigidbody != null)
-                    {
-                        hit.rigidbody.useGravity = true;
-                        hit.collider.gameObject.transform.parent = null;
-                        drop = false;
-                    }
-                }
+                //}
+                //else
+                //{
+                //    if (hit.rigidbody != null)
+                //    {
+                //        hit.rigidbody.useGravity = true;
+                //        hit.collider.gameObject.transform.parent = null;
+                //        drop = false;
+                //    }
+                //}
             }
         }
 
@@ -72,8 +72,8 @@ public class TipOfGun : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
-            if (bullet == null)
-            {
+            //if (bullet == null)
+            //{
                 bullet = Instantiate(Resources.Load("Bullet", typeof(GameObject))) as GameObject;
                 bullet.transform.position = transform.position;
                 bullet.transform.LookAt(hit.transform.position);
@@ -81,7 +81,7 @@ public class TipOfGun : MonoBehaviour
 
                 bullet.GetComponent<BulletBeh>().direction = hit.collider.gameObject.transform.position;
                 bullet.GetComponent<BulletBeh>().Fire = true;
-            }
+            //}
 
         }
     }

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour {
 
-    AudioSource audio;
+    public AudioSource audio;
+    public AudioClip[] clips;
+
 
     void Start()
     {
@@ -17,6 +19,7 @@ public class Manager : MonoBehaviour {
     {
         if (!audio.isPlaying)
         {
+            audio.volume = 0.1f;
             audio.Play();
         }
     }

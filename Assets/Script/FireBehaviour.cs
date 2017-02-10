@@ -30,7 +30,7 @@ public class FireBehaviour : MonoBehaviour {
             }
             other.gameObject.GetComponent<BulletBeh>().Fire = false;
             Destroy(other.gameObject);
-            FireLight.GetComponent<Light>().intensity -= 0.2f;
+            FireLight.GetComponent<Light>().intensity -= 0.1f;
         }
 
         if (other.gameObject.GetComponent<ItemBeh>() != null)

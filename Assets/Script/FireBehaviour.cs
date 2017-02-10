@@ -5,22 +5,15 @@ using UnityEngine;
 
 public class FireBehaviour : MonoBehaviour {
 
-    public float SizeOfFire;
     public Light FireLight;
 
-	// Use this for initialization
-	void Start () {
-        SizeOfFire = 1f;
+	void Start ()
+    {
 
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-       //Vector3 scale = gameObject.transform.localScale;
-       // scale.y = SizeOfFire;
-        //gameObject.transform.localScale = scale;
-
+	void Update ()
+    {
 
     }
 
@@ -31,28 +24,14 @@ public class FireBehaviour : MonoBehaviour {
         {
             other.gameObject.GetComponent<BulletBeh>().Fire = false;
             Destroy(other.gameObject);
-
             FireLight.GetComponent<Light>().intensity -= 0.005f;
         }
-
 
         if (other.gameObject.GetComponent<ItemBeh>() != null)
         {
             Destroy(other.gameObject);
             FireLight.GetComponent<Light>().intensity -= 0.005f;
         }
-
-        //SizeOfFire += (float) Convert.ToInt32(other.gameObject.tag);
-
-
-        //0.5 is minimum range
-        //2.0 is maximum range
-
-
-
-
-        //FireLight.intensity += (float)(Convert.ToInt32(other.gameObject.tag.ToString()) * 0.5);
-        //FireLight.intensity -= 1.5f;
 
     }
 }

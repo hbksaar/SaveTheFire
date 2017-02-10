@@ -38,15 +38,13 @@ public class EnemyBeh : MonoBehaviour {
 
     void ThrowSnowball()
     {
-
-
-            bullet = Instantiate(Resources.Load("Bullet", typeof(GameObject))) as GameObject;
-            bullet.transform.position = transform.position;
+        bullet = Instantiate(Resources.Load("Bullet", typeof(GameObject))) as GameObject;
+        bullet.transform.position = transform.position;
          
-            bullet.transform.localScale = new Vector3(0.07f, 0.07f, 0.07f);
+        bullet.transform.localScale = new Vector3(0.07f, 0.07f, 0.07f);
 
-            bullet.GetComponent<BulletBeh>().direction = new Vector3(0.107f, 1.066f, -1.114f); //location of the fire
-            bullet.GetComponent<BulletBeh>().Fire = true;
+        bullet.GetComponent<BulletBeh>().direction = new Vector3(0.107f, 1.066f, -1.114f); //location of the fire
+        bullet.GetComponent<BulletBeh>().Fire = true;
 
     }
 }

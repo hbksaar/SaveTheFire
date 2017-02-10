@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour {
 
-    public Transform brick;
     AudioSource audio;
 
     void Start()
@@ -20,10 +19,5 @@ public class Manager : MonoBehaviour {
         {
             audio.Play();
         }
-    }
-
-    public void OnMouseDown()
-    {
-        Instantiate(brick, new Vector3(3.73f, 3.32f, 2.55f), Quaternion.identity);
     }
 }

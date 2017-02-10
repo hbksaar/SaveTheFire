@@ -17,10 +17,9 @@ public class Manager : MonoBehaviour {
 
     void Update ()
     {
-        if (!audio.isPlaying)
-        {
-            audio.volume = 0.1f;
-            audio.Play();
-        }
+        //if (!audio.isPlaying)
+        //{
+        //    audio.Play();
+        //}
     }
 }

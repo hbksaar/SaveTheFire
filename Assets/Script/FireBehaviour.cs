@@ -6,10 +6,11 @@ using UnityEngine;
 public class FireBehaviour : MonoBehaviour {
 
     public Light FireLight;
+    private AudioSource audio;
 
 	void Start ()
     {
-
+        audio = GetComponent<AudioSource>();
     }
 
 	void Update ()
@@ -22,6 +23,11 @@ public class FireBehaviour : MonoBehaviour {
 
         if (other.gameObject.GetComponent<BulletBeh>() != null)
         {
+
+            if (!audio.isPlaying)
+            {
+                audio.Play();
+            }
             other.gameObject.GetComponent<BulletBeh>().Fire = false;
             Destroy(other.gameObject);
             FireLight.GetComponent<Light>().intensity -= 0.2f;
@@ -29,6 +35,10 @@ public class FireBehaviour : MonoBehaviour {
 
         if (other.gameObject.GetComponent<ItemBeh>() != null)
         {
+            if(!audio.isPlaying)
+            {
+                audio.Play();
+            }
             Destroy(other.gameObject);
             FireLight.GetComponent<Light>().intensity += other.gameObject.GetComponent<ItemBeh>().Value;
         }

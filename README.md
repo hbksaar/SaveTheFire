@@ -7,13 +7,13 @@ with each others and have to  kill all the enemies who are appearing randomly fr
 snowballs. Furthermore the other tasks of players includes find appropriate items (Wood,Coal etc) from the scene and 
 drag and drop these founded items into the fire pit in order to keep the fire alive.  
 
-How to install and run project
-Clone the project using a git terminal or simply click "download zip file".
-Once download finished extact files from directory
-Locate Assets > Scenes > Raycast.unity
-Open Raycast.unity
-To run the game with the 8 - projector setup click on File > Build and Run
-The game can also be ran by clicking on the play button (this will run it in degub mode), no projector will be activated
+How to install and run project a <br />
+Clone the project using a git terminal or simply click "download zip file". a <br />
+Once download finished extact files from directory a <br />
+Locate Assets > Scenes > Raycast.unity a <br />
+Open Raycast.unity a <br />
+To run the game with the 8 - projector setup click on File > Build and Run a <br />
+The game can also be ran by clicking on the play button (this will run it in degub mode), no projector will be activated a <br />
 
 Software Requirements
 Save the Fire! is a Unity Project, required version to run 5.5.1
